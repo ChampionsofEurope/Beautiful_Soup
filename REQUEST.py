@@ -4,3 +4,4 @@ page = requests.get("https://dataquestio.github.io/web-scraping-pages/simple.htm
 print(page)
 soup = BeautifulSoup(page.content, 'html.parser')
 print(soup.prettify())
+list(soup.children)
