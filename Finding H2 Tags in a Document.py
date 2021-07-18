@@ -37,5 +37,5 @@ w3resource.com</a></p>
 
 
 soup = BeautifulSoup(html_doc, 'html.parser')
-print("Text in the First Paragraph Tag")
+print("The Tag in H2")
 print(soup.find("h2"))
